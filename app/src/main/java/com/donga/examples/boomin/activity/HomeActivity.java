@@ -86,7 +86,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     @OnClick(R.id.menu_res)
     void menu_res() {
-        Intent intent = new Intent(getApplicationContext(), ResActivity.class);
+        Intent intent = new Intent(getApplicationContext(), ResKActivity.class);
         startActivity(intent);
     }
 
@@ -355,7 +355,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_res) {
-            Intent intent = new Intent(getApplicationContext(), ResActivity.class);
+            Intent intent = new Intent(getApplicationContext(), ResKActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_room) {
             Intent intent = new Intent(getApplicationContext(), RoomActivity.class);

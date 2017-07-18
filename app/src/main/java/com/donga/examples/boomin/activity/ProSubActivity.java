@@ -142,7 +142,7 @@ public class ProSubActivity extends AppCompatActivity implements NavigationView.
         int id = item.getItemId();
 
         if (id == R.id.nav_res) {
-            Intent intent = new Intent(getApplicationContext(), ResActivity.class);
+            Intent intent = new Intent(getApplicationContext(), ResKActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_room) {
             Intent intent = new Intent(getApplicationContext(), RoomActivity.class);
